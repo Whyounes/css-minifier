@@ -1,0 +1,20 @@
+{
+    "name": "rafie/cssminifier",
+    "description": "",
+    "authors": [
+        {
+            "name": "RAFIE Younes",
+            "email": "younes.rafie@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rafie\\Cssminifier": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

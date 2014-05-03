@@ -1,0 +1,430 @@
+/* @media css for extra large screens */
+ @media only screen and (min-width: 1400px) {
+     #wrap {
+         width: 1200px;
+    }
+     #wrapper, #wrapperFooter {
+         width: 1000px;
+    }
+     #wrapper.page, #wrapperFooter.page {
+         width: 1000px;
+         margin-left: 200px;
+    }
+     #sliderWrapper {
+         width: 1200px;
+         margin: 0 auto;
+		 min-height: 80px;
+    }
+     #wrap-header #main-header {
+         width: 1152px;
+    }
+     #footer {
+         width: 1000px;
+    }
+     #copyright {
+         margin-left: 200px;
+    }
+     .userMessage {
+        margin: 0 95px;
+    }
+}
+/*------------------------------*/
+/* @media css for large screens */
+ @media only screen and (min-width: 1218px) and (max-width: 1399px) {
+     #wrap {
+         width: 1024px;
+    }
+     #wrapper, #wrapperFooter {
+         width: 824px;
+    }
+     #wrapper.page, #wrapperFooter.page {
+         width: 824px;
+         margin-left: 200px;
+    }
+     #sliderWrapper {
+         width: 1024px;
+         margin: 0 auto;
+		 min-height: 80px;
+    }
+     #wrap-header #main-header {
+         width: 980px;
+    }
+     #footer {
+         width: 1024px;
+    }
+     #copyright {
+         margin-left: 200px;
+    }
+     .home-block .intro {
+         padding: 70px 50px !important;
+    }
+     .home-block .intro_opp {
+         padding: 110px 50px!important;
+    }
+     .userMessage {
+        margin: 0;
+    }
+     #slides .slidesjs-navigation {
+         top: 300px!important;
+    }
+}
+/*------------------------------*/
+/* @media css for normal screens */
+ @media only screen and (min-width: 998px) and (max-width: 1217px) {
+     #wrap {
+         width: 810px;
+    }
+     #wrapper, #wrapperFooter {
+         width: 610px;
+    }
+     #wrapper.page, #wrapperFooter.page {
+         width: 610px;
+         margin-left: 200px;
+    }
+     #sliderWrapper {
+         width: 810px;
+         margin: 0 auto;
+		 min-height: 80px;
+    }
+     #wrap-header #main-header .main-navigation li:before {
+         border-left: none!important;
+         border-right: none!important;
+    }
+     #wrap-header #main-header {
+         width: 740px;
+    }
+     #footer {
+         width: 810px;
+    }
+     #copyright {
+         margin-left: 200px;
+    }
+     .royalSlider, #sliderWrapper {
+         clear: left;
+    }
+     .home-block .intro {
+         padding: 40px 40px!important;
+    }
+     .home-block .intro_opp {
+         padding: 40px 40px!important;
+    }
+     .contact-form input[type="text"], .contact-form input[type="password"], .contact-form input[type="email"] {
+         width: 222px!important;
+    }
+     .home-contact input {
+         margin: 3px 0 3px 0 !important;
+    }
+     button.contact-submit {
+         width: 100%;
+    }
+     .userMessage {
+        margin: 0;
+    }
+     #slides .slidesjs-navigation {
+         top: 250px!important;
+    }
+}
+/*------------------------------*/
+/* @media css for ipad */
+ @media only screen and (min-width: 768px) and (max-width: 997px) {
+     #wrap {
+         width: 720px;
+    }
+     #wrapper, #wrapperFooter {
+         width: 690px;
+    }
+     #wrapper.page, #wrapperFooter.page {
+         width: 660px;
+         margin-left: 60px;
+    }
+     #sliderWrapper {
+         width: 720px;
+         margin: 0 auto;
+		 min-height: 80px;
+    }
+     #wrap-header #main-header {
+         width: 720px;
+    }
+     #footer {
+         width: 690px;
+    }
+     #copyright {
+         margin-left: 60px;
+    }
+     .home-block {
+         padding: 40px 30px 40px;
+         text-align: center;
+    }
+     .subNav {
+         position: absolute;
+         margin-left: -60px;
+         width: 60px;
+         background: #ffffff;
+    }
+     .home-block ul {
+         margin: 0px!important 
+    }
+     .home-block .intro {
+         padding: 30px 20px 0!important;
+    }
+     .home-block .intro_opp {
+         padding: 30px 20px 0!important;
+    }
+     input {
+         -webkit-appearance:caret;
+    }
+     #wrap-header #main-header .main-navigation li:before {
+         border-left: none!important;
+         border-right: none!important;
+    }
+     #wrap-header #main-header .main-navigation li a {
+         padding: 27px 7px;
+    }
+     #wrap-header #main-header .dropdown-menu li a {
+         padding: 10px 5px;
+    }
+     .home-block .intro {
+         padding: 30px 0 30px 0px!important;
+    }
+     .home-block .intro_opp {
+         padding: 30px 0 30px 0px!important;
+    }
+     img.no-padding-left {
+         margin-left: -60px;
+    }
+     img.no-padding-right {
+         margin-right: -60px;
+    }
+     .subNav span, .subNav span.subNavtitle {
+         display: none;
+    }
+     .subNav li a {
+         padding: 15px 0 41px 9px;
+    }
+     #wrap-header #main-header #header-logo-wrap {
+         left: 20px!important;
+    }
+     .contact-form input[type="text"], .contact-form input[type="password"], .contact-form input[type="email"] {
+         width: 250px!important;
+    }
+     .home-contact input {
+         margin: 3px 0 3px 0 !important;
+    }
+     .userMessage {
+        margin: 0;
+    }
+     #slides .slidesjs-navigation {
+         top: 230px!important;
+    }
+}
+/*------------------------------*/
+/* @media css for ipad mini*/
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+     #wrap {
+         width: 470px;
+    }
+     #wrapper, #wrapperFooter {
+         width: 450px;
+    }
+     #wrapper.page, #wrapperFooter.page {
+         width: 450px;
+    }
+     #sliderWrapper {
+         width: 450px;
+         margin: 0 auto;
+    }
+     #wrap-header #main-header {
+         width: 420px;
+    }
+     #footer {
+         width: 440px;
+    }
+     .home-block {
+         padding: 40px 30px 40px;
+         text-align: center;
+    }
+     .home-block ul {
+         margin: 0px!important 
+    }
+     input {
+         -webkit-appearance:caret;
+    }
+     #wrap-header #main-header .main-navigation li a {
+         padding: 27px 13px;
+    }
+     #wrap-header #main-header .dropdown-menu li a {
+         padding: 10px 5px;
+    }
+     #home-intro h1 {
+         font-size: 24px;
+         font-weight: 100;
+         line-height: 24px;
+    }
+     .hideTabs {
+         display: none !important;
+    }
+     .showAccordion {
+         display: inherit !important;
+    }
+     .home-block h3.intro, h3.intro {
+         font-size: 1.3em;
+         line-height: 1.1em;
+    }
+     button.contact-submit {
+    }
+     #sliderWrapper {
+         clear: left;
+    }
+     .subNav {
+         display: none;
+    }
+     .home-block .intro {
+         padding: 20px 5px!important;
+    }
+     .home-block .intro_opp {
+         padding: 20px 5px!important;
+    }
+     .span6.pull-left.no-padding-left {
+         margin-bottom: 40px;
+    }
+     .span6.pull-right.no-padding-right {
+         margin-bottom: 60px;
+    }
+     img.no-padding-left {
+         margin-left: -60px;
+    }
+     img.no-padding-right {
+         margin-right: -60px;
+    }
+     .subNav span, .subNav span.subNavtitle {
+         display: none;
+    }
+     .subNav li a {
+         padding: 15px 0 41px 9px;
+    }
+     .home-contact input {
+         margin: 3px 0 3px 0 !important;
+    }
+     button.contact-submit {
+         width: 100%;
+    }
+     .userMessage {
+        margin: 0;
+    }
+     #slides .slidesjs-navigation {
+         top: 115px!important;
+    }
+}
+/*------------------------------*/
+/* @media css for ipad mini*/
+ @media only screen and (max-width: 479px) {
+     #wrap {
+         width: 320px;
+    }
+     #wrapper, #wrapperFooter {
+         width: 315px;
+    }
+     #wrapper.page, #wrapperFooter.page {
+         width: 315px;
+    }
+     #sliderWrapper {
+         width: 315px;
+         margin: 0 auto;
+    }
+     #footer {
+         width: 297px;
+    }
+     .subNav {
+         display: none;
+    }
+     .home-block ul {
+         margin: 0px!important 
+    }
+     .home-block {
+         border-bottom: 1px solid #DADADA;
+         padding: 40px 10px 30px;
+         text-align: center;
+    }
+     #home-intro h1 {
+         font-size: 24px;
+         line-height: 24px;
+         font-weight: 100;
+    }
+     .intro.padding-right {
+         padding: 0 10px;
+    }
+     .hideTabs {
+         display: none !important;
+    }
+     .showAccordion {
+         display: inherit !important;
+    }
+     .home-block h3.intro, h3.intro {
+         font-size: 1.3em;
+         line-height: 1.1em;
+    }
+     #sliderWrapper {
+         clear: left;
+    }
+     .home-block .intro {
+         padding: 20px 5px!important;
+    }
+     .home-block .intro_opp {
+         padding: 20px 5px!important;
+    }
+     .span6.pull-left.no-padding-left {
+         margin-bottom: 40px;
+    }
+     .span6.pull-right.no-padding-right {
+         margin-bottom: 60px;
+    }
+     img.no-padding-left {
+         margin-left: -20px;
+    }
+     img.no-padding-right {
+         margin-right: -20px;
+    }
+     .subNav span, .subNav span.subNavtitle {
+         display: none;
+    }
+     .subNav li a {
+         padding: 15px 0 41px 9px;
+    }
+     button.contact-submit {
+         width: 100% 
+    }
+     .userMessage {
+        margin: 0;
+    }
+     #slides .slidesjs-navigation {
+        top: 70px!important;
+        
+         /*display: none;*/
+    }
+     .slidesjs-pagination {
+         text-align: center!important;
+         bottom: 10px!important;
+		 padding: 0px!important;
+    }
+	
+	.footmenu .menubot span.copyright {
+		display:none;
+	}
+	
+	.footmenu .menulast {
+		display:block !important;
+	}
+}
+
+/*Retina images served up here*/
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+
+}
+/*------------------------------*/

@@ -28,7 +28,6 @@ $cssmin->minify(
 
 //Through the Facade
 
-```
 CssMin::minify(
   [
     'path/to/file1.css',

@@ -19,7 +19,7 @@ class CssminifierServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		App::bind( 'CssMin', function(){
+		$this->app->bind( 'cssmin', function(){
 			return new CssMin;
 		});
 	}

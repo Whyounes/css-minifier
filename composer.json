@@ -1,6 +1,6 @@
 {
     "name": "rafie/cssminifier",
-    "description": "",
+    "description": "Simple css minifier for Laravel",
     "authors": [
         {
             "name": "RAFIE Younes",
